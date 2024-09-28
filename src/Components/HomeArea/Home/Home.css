@@ -1,0 +1,29 @@
+.logout {
+    height: 60px;
+    display: flex;
+    gap: 20px;
+    margin: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+
+.logoutBtn {
+        font-family: Avenir;
+        color: rgb(245, 34, 45);
+        border: 1px solid rgb(245, 34, 45);
+        outline: none;
+        height: 36px;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 8px 16px;
+        border-radius: 33px;
+        background-color: white;
+        transition: 0.44s;
+        position: relative;
+        left: 12px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
